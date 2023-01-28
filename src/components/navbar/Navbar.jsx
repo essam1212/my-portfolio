@@ -24,7 +24,7 @@ function NavBar() {
       expand="md"
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand as={Link} to="/"  className="d-flex">
           <h1 className="logo"> My portfolio</h1>
         </Navbar.Brand>
         <Navbar.Toggle
