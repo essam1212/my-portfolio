@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { CgFileDocument, CgGitFork } from "react-icons/cg";
 import './navbar.css'
 import {
   AiFillStar,
@@ -62,6 +62,15 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} />{" "}
+                Resume
               </Nav.Link>
             </Nav.Item>
 
