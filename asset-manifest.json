@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b751a9d0.css",
-    "main.js": "/portfolio/static/js/main.43ca3da6.js",
+    "main.css": "/portfolio/static/css/main.6ed33cc9.css",
+    "main.js": "/portfolio/static/js/main.d78b2ce7.js",
     "static/media/MOVIES.png": "/portfolio/static/media/MOVIES.2c4e7f9cf413a6c061ae.png",
     "static/media/bashboard.png": "/portfolio/static/media/bashboard.47fd8ba26fd2305fe7b1.png",
     "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/crud-react.png": "/portfolio/static/media/crud-react.17191316156627992c1d.png",
+    "static/media/Essam-Ali-Front-End-Developer.pdf": "/portfolio/static/media/Essam-Ali-Front-End-Developer.3a16486d975c96cf194c.pdf",
     "static/media/cruds-js.png": "/portfolio/static/media/cruds-js.c053e98fc9a659100987.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
-    "main.b751a9d0.css.map": "/portfolio/static/css/main.b751a9d0.css.map",
-    "main.43ca3da6.js.map": "/portfolio/static/js/main.43ca3da6.js.map"
+    "main.6ed33cc9.css.map": "/portfolio/static/css/main.6ed33cc9.css.map",
+    "main.d78b2ce7.js.map": "/portfolio/static/js/main.d78b2ce7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b751a9d0.css",
-    "static/js/main.43ca3da6.js"
+    "static/css/main.6ed33cc9.css",
+    "static/js/main.d78b2ce7.js"
   ]
 }
