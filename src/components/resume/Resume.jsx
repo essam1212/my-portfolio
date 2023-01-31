@@ -9,10 +9,10 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://raw.githubusercontent.com/essam1212/protofilo/master/src/Assets/Projects/Essam-Ali-Front-End-Developer.pdf";
 // const resumeLink =
-// "http://localhost:3000/static/media/CV-ibrahim-nady.c788a70bda65f5a828b6.pdf";
+//   "https://raw.githubusercontent.com/essam1212/protofilo/master/src/Assets/Projects/Essam-Ali-Front-End-Developer.pdf";
+const resumeLink =
+"http://localhost:3000/static/media/Essam-Ali-Front-End-Developer.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
