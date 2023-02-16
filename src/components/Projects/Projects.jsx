@@ -8,6 +8,7 @@ import movies from "../../Assets/Projects/MOVIES.png";
 import AdminDB from "../../Assets/Projects/bashboard.png";
 import crudReact from "../../Assets/Projects/crud-react.png";
 import crudsjs from "../../Assets/Projects/cruds-js.png";
+import notes from "../../Assets/Projects/note.png";
 
 
 function Projects() {
@@ -44,6 +45,21 @@ function Projects() {
               demoLink="https://essam1212.github.io/dagbord/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notes}
+              isBlog={false}
+              title="notes"
+              description=" This site is about making a personal page for each user by signup, login
+              Upon entering, he can create his own notes with the title and 
+              content of the note, and he can modify or delete the note, and 
+              the site displays the note to the user 
+              with the date it was written. I recommend trying this site"
+              ghLink="https://github.com/essam1212/noteFE"
+              demoLink="https://essam1212.github.io/noteFE/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crudReact}
@@ -64,6 +80,7 @@ function Projects() {
               demoLink="https://essam1212.github.io/cruds-js/"
             />
           </Col>
+         
 
         
          
